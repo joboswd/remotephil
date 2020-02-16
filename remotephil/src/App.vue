@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="flex">
-      <div class="w-1/6">
+      <div class="w-1/6 pr-5">
         <SideMenu />
       </div>
       <div class="w-5/6 bg-white shadow">
