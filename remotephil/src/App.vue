@@ -7,13 +7,11 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import AppIcon from './elements/AppIcon.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    AppIcon
+    HelloWorld
   }
 }
 </script>
