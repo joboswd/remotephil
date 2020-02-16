@@ -123,4 +123,9 @@ export default {
 .icon-arrow-left2:before {
   content: "\ea40";
 }
+
+.icon-arrow_down:before {
+  content: "\ea40";
+  transform: rotate(-45deg);
+}
 </style>
