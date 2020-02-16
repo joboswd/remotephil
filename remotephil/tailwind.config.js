@@ -186,7 +186,8 @@ module.exports = {
     // For sitewide font, use @apply on Tailwind.css file
     fontFamily: {
       openSans: '"Open Sans"',
-      roboto: '"Roboto"'
+      roboto: '"Roboto"',
+      inter: '"Inter", sans-serif'
     },
 
     // Instead of using normal, bold, etc, use the actual font-weight. Follow the style guide.
