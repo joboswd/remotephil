@@ -30,6 +30,5 @@ export default {
 <style lang="scss">
 #app {
   margin-top: 80px;
-  text-align: center;
 }
 </style>

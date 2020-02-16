@@ -1,6 +1,6 @@
 <template>
     <div class="summary-header__right">
-        <div class="profit-summary">
+        <div class="profit-summary text-center">
             <div class="flex-row bg-bggray text-secondary-gray py-1">
                 Aug 13, 2018 - Aug 13, 2019 (<u>Edit</u>)
             </div>
