@@ -1,13 +1,25 @@
 <template>
-    <div class="side-menu">
+    <ul class="side-menu">
         test
-        <div
+        <li
             v-for="(item, index) in sideMenuData" 
             :key="index"
         >
-            <h3>{{ item.name }}</h3>
-        </div>
-    </div>
+            <h3 class="text-primary-gray">{{ item.name }}</h3>
+            <ul 
+                v-if="item.submenus"
+                :key="index"
+                :ref="'submenu-' + index"
+            >
+                <li
+                    v-for="(submenu, subIndex) in item.submenus"
+                    :key="subIndex"
+                >
+                    <h3 class="text-primary-gray">{{ submenu.name }}</h3>
+                </li>
+            </ul>
+        </li>
+    </ul>
 </template>
 
 <script>

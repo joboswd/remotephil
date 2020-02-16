@@ -17,7 +17,7 @@ module.exports = {
       primary: {
         default: '#0b0f7b',
         light: '#F0904D',
-        dark: '#212121',
+        dark: '#333333',
         teal: '#2d7b8a',
         violet: '#69498F',
         gray: '#707070',
@@ -31,7 +31,7 @@ module.exports = {
         dark: '#0b0b0b',
         teal: '#3992A5',
         violet: '#A87BC9',
-        gray: '#ADADAD',
+        gray: '#7D7D7D',
         bluegray: '#788C99',
         red: '#FF5C5C'
       },
