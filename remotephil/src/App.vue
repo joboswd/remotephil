@@ -2,16 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <SideMenu />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SideMenu from './components/SideMenu.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SideMenu
   }
 }
 </script>
