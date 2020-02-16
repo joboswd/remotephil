@@ -1,0 +1,41 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "url": "#",
+        "name": "Customers",
+        "submenus": [
+          {
+            "id": "1",
+            "name": "Orders",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "name": "Companies",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "name": "Users",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "name": "Price Lists",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "url": "#",
+        "name": "Suppliers"
+      },
+      {
+        "id": 3,
+        "url": "#",
+        "name": "Catalog"
+      }
+    ]
+  }
