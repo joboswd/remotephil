@@ -8,7 +8,8 @@ module.exports = {
       transparent: 'transparent',
       black: '#000',
       white: '#fff',
-      gray: '#ebebeb',
+      gray: '#e4e4e4',
+      bggray: '#f3f3f4',
       darkgray: '#dcdcdc',
       lightgray: '#C9C9C9',
       lightteal: '#63CEE2',
@@ -19,7 +20,7 @@ module.exports = {
         light: '#F0904D',
         dark: '#333333',
         teal: '#2d7b8a',
-        violet: '#69498F',
+        violet: '#593ec2',
         gray: '#707070',
         red: '#FF0000',
         bluegray: '#3E4A55',
@@ -83,6 +84,7 @@ module.exports = {
       '96': '24rem', // custom Product card max width
       '102': '31.25rem',
       // Custom
+      '3.5': '0.875rem',
       '35': '8.75rem'
     },
     // Decimal percentages. Avoid adding classes that are similar to horizontal spacing
